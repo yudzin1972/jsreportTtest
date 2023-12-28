@@ -1,25 +1,26 @@
 package org.example.model;
 
 public class Unit {
-    private String id;
+    private String dolg;
     private String name;
-    private String data;
-
+    private String phone;
+    private String room;
     public Unit() {
     }
 
-    public Unit(String id, String name, String data) {
-        this.id = id;
+    public Unit(String dolg, String name, String phone, String room) {
+        this.dolg = dolg;
         this.name = name;
-        this.data = data;
+        this.phone = phone;
+        this.room = room;
     }
 
-    public String getId() {
-        return id;
+    public String getDolg() {
+        return dolg;
     }
 
-    public void setId(String id) {
-        this.id = id;
+    public void setDolg(String dolg) {
+        this.dolg = dolg;
     }
 
     public String getName() {
@@ -30,11 +31,19 @@ public class Unit {
         this.name = name;
     }
 
-    public String getData() {
-        return data;
+    public String getPhone() {
+        return phone;
     }
 
-    public void setData(String data) {
-        this.data = data;
+    public void setPhone(String phone) {
+        this.phone = phone;
+    }
+
+    public String getRoom() {
+        return room;
+    }
+
+    public void setRoom(String room) {
+        this.room = room;
     }
 }
